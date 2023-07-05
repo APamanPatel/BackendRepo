@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var con = require('./connectDB');
-const register = require('./routes/register');
+const register = require('./Routes/register');
 const rooms = require('./Routes/rooms')
 var app = express();
 
